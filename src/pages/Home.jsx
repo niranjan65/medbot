@@ -3,7 +3,7 @@ import heroImg03 from "../assets/images/Doctor.png";
 import icon01 from "../assets/images/icon01.png";
 import icon02 from "../assets/images/icon02.png";
 import icon03 from "../assets/images/icon03.png";
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import { BsArrowRight } from "react-icons/bs";
 import { About } from "../components/About/About";
 import { Services } from "../components/Services/Services";
@@ -129,9 +129,9 @@ export const Home = () => {
                 <img src={icon03} alt="" />
               </div>
               <div className="mt-[30px]">
-                <h2 className="text-[26px] leading-9 text-headingColor font-[700] text-center">
+                <NavLink to="https://0471-2405-201-8022-715e-855d-2758-6818-e56.ngrok-free.app/"><h2 className="text-[26px] leading-9 text-headingColor font-[700] text-center">
                   Book Appointment
-                </h2>
+                </h2></NavLink>
                 <p className="text_para text-center">
                   World-class care for everyone. our health System offers
                   unmatched, expert health care. From the lab to the Clinic.
