@@ -51,7 +51,7 @@ export const Header = () => {
         <div className="flex items-center justify-between">
           {/*----Logo----*/}
           <div>
-            <h1 className="text-2xl font-extrabold">Medbot</h1>
+            <NavLink to="/"><h1 className="text-2xl font-extrabold">Medbot</h1></NavLink>
           </div>
           {/*----menu----*/}
           <div className="navigation" ref={menyRef} onClick={toggleMenu}>
