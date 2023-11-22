@@ -38,7 +38,7 @@ export const Home = () => {
                   healthcare at your fingertips and embark on your journey to a
                   healthier, happier life today.{" "}
                 </p>
-                <button className="btn">Request an Appointment</button>
+                <NavLink to="https://0471-2405-201-8022-715e-855d-2758-6818-e56.ngrok-free.app/"><button className="btn">Request an Appointment</button></NavLink>
               </div>
               <div className="mt-[30px] lg:mt-[70px] flex flex-col lg:flex-row lg:items-center gap-5 lg:gap-[30px]">
                 <div>
