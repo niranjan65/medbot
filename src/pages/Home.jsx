@@ -155,9 +155,9 @@ export const Home = () => {
       <OurDoctors/>
       <Faq/>
       <Testimonial/>
-      <div className="fixed btn bottom-[20px] right-[20px] cursor-pointer flex gap-2 items-center z-10">
+      <div className="fixed btn bottom-4 right-8 lg:bottom-[20px] lg:right-[20px] cursor-pointer flex gap-2 items-center z-10">
         <BsChatText/>
-        <button className="">Chat with us</button>
+        <a href="https://0471-2405-201-8022-715e-855d-2758-6818-e56.ngrok-free.app/"><button className="">Chat with us</button></a>
       </div>
     </div>
   );
