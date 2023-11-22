@@ -6,6 +6,7 @@ import { Doctors } from "../pages/Doctors/Doctors";
 import { DoctorDetails } from "../pages/Doctors/DoctorDetails";
 import { Contact } from "../pages/Contact";
 import { Routes, Route } from "react-router-dom";
+import NotFound from "../pages/NotFound";
 export const Router = () => {
   return (
     <Routes>
@@ -17,6 +18,7 @@ export const Router = () => {
       <Route path="/signup" element={<SignUp />} />
       <Route path="/contact" element={<Contact />} />
       <Route path="/services" element={<Services />} />
+      <Route path="*" element={<NotFound/>} />
     </Routes>
   );
 };
