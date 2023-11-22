@@ -129,7 +129,7 @@ export const Home = () => {
                 <img src={icon03} alt="" />
               </div>
               <div className="mt-[30px]">
-                <NavLink to="https://0471-2405-201-8022-715e-855d-2758-6818-e56.ngrok-free.app/"><h2 className="text-[26px] leading-9 text-headingColor font-[700] text-center">
+                <NavLink to="https://128c-2409-40e0-100d-581f-d1f3-4cb4-34d9-698.ngrok-free.app"><h2 className="text-[26px] leading-9 text-headingColor font-[700] text-center">
                   Book Appointment
                 </h2></NavLink>
                 <p className="text_para text-center">
@@ -157,7 +157,7 @@ export const Home = () => {
       <Testimonial/>
       <div className="fixed btn bottom-4 right-8 lg:bottom-[20px] lg:right-[20px] cursor-pointer flex gap-2 items-center z-10">
         <BsChatText/>
-        <a href="https://0471-2405-201-8022-715e-855d-2758-6818-e56.ngrok-free.app/"><button className="">Chat with us</button></a>
+        <a href="https://128c-2409-40e0-100d-581f-d1f3-4cb4-34d9-698.ngrok-free.app"><button className="">Chat with us</button></a>
       </div>
     </div>
   );
